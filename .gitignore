@@ -1,0 +1,16 @@
+# Ignore local .terraform directories and binaries
+**/.terraform/
+
+# Ignore local state files and lock files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Ignore crash logs and overrides
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
